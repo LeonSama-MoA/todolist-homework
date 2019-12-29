@@ -78,7 +78,7 @@ class ToDoApp extends React.Component {
         return <h1>ToDo List is empty.</h1>
       } else {
         return (
-          <table class="table table-striped">
+          <table className="table table-striped">
             <thead>
               <tr>
                 <th scope="col" style={{width: 100}}>#</th>
@@ -104,7 +104,7 @@ class ToDoApp extends React.Component {
   
   function CompleteButton(props) {
     return (
-      <button type="button" class="btn btn-outline-primary" onClick={props.onClick}>
+      <button type="button" className="btn btn-outline-primary" onClick={props.onClick}>
         Complete
       </button>
     );
@@ -112,7 +112,7 @@ class ToDoApp extends React.Component {
   
   function CompletedButton() {
     return (
-      <button type="button" class="btn btn-secondary btn-lg" disabled>
+      <button type="button" className="btn btn-secondary btn-lg" disabled>
         Completed
       </button>
     );
