@@ -14,7 +14,7 @@ class ToDoApp extends React.Component {
   
     handleSubmit(e) {
       e.preventDefault();
-      if (!this.state.text.length) {
+      if ((!this.state.text.length) || (!this.state.text.trim().length)) {
         return;
       }
       const newItem = {

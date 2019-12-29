@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 //import './App.css';
 import './bootstrap/bootstrap.css'
 import ToDoApp from "./ToDo.js"
-export default App;
+
 
 class HelloWorld extends React.Component {
   render() {
@@ -21,7 +21,7 @@ class App extends React.Component {
     )
   }
 }
-
+export default App;
 ReactDOM.render(
   <App />,
   document.getElementById('root')
